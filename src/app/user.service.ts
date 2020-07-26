@@ -13,26 +13,26 @@ const GET_HEADERS = {
   providedIn: 'root'
 })
 export class UserService {
-  baseUrl: 'http://172.31.21.24:8081';
+  baseUrl: 'http://172.31.10.7:8081';
   constructor(private http: HttpClient) { }
 
   addUser(newUser: User): Observable<any> {
-    return this.http.post<any>('http://172.31.21.24:8081' + `/user/addNewUser` , newUser, GET_HEADERS);
+    return this.http.post<any>('http://172.31.10.7:8081' + `/user/addNewUser` , newUser, GET_HEADERS);
   }
 
   getUser(emailId: string): Observable<any> {
-    return this.http.get<any>('http://172.31.21.24:8081' + '/user/getUser/' + emailId);
+    return this.http.get<any>('http://172.31.10.7:8081' + '/user/getUser/' + emailId);
   }
 
   getAllUsers(): Observable<any> {
-    return this.http.get<any>('http://172.31.21.24:8081' + '/user/getUsers');
+    return this.http.get<any>('http://172.31.10.7:8081' + '/user/getUsers');
   }
 
   deleteUser(userId: string): Observable<any> {
-    return this.http.delete<any>('http://172.31.21.24:8081' + '/user/' + userId);
+    return this.http.delete<any>('http://172.31.10.7:8081' + '/user/' + userId);
   }
   updateUser(user: User): Observable<any> {
 
-    return this.http.put<any>('http://172.31.21.24:8081' + `/user/`, user, GET_HEADERS);
+    return this.http.put<any>('http://172.31.10.7:8081' + `/user/`, user, GET_HEADERS);
   }
 }

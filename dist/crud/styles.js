@@ -40,7 +40,7 @@ module.exports = [[module.i, "/*!\n * Bootstrap v4.3.1 (https://getbootstrap.com
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = [[module.i, "/* You can add global styles to this file, and also import other style files */\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9zdHlsZXMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLCtFQUErRSIsImZpbGUiOiJzcmMvc3R5bGVzLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIFlvdSBjYW4gYWRkIGdsb2JhbCBzdHlsZXMgdG8gdGhpcyBmaWxlLCBhbmQgYWxzbyBpbXBvcnQgb3RoZXIgc3R5bGUgZmlsZXMgKi9cbiJdfQ== */", '', '']]
+module.exports = [[module.i, "/* You can add global styles to this file, and also import other style files */\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9zdHlsZXMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLCtFQUErRSIsImZpbGUiOiJzcmMvc3R5bGVzLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIFlvdSBjYW4gYWRkIGdsb2JhbCBzdHlsZXMgdG8gdGhpcyBmaWxlLCBhbmQgYWxzbyBpbXBvcnQgb3RoZXIgc3R5bGUgZmlsZXMgKi9cclxuIl19 */", '', '']]
 
 /***/ }),
 
@@ -678,10 +678,10 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\M1049154\Downloads\crud\crud\src\styles.css */"./src/styles.css");
-__webpack_require__(/*! C:\Users\M1049154\Downloads\crud\crud\node_modules\bootstrap\dist\css\bootstrap.min.css */"./node_modules/bootstrap/dist/css/bootstrap.min.css");
-__webpack_require__(/*! C:\Users\M1049154\Downloads\crud\crud\node_modules\bootstrap\dist\css\bootstrap-grid.min.css */"./node_modules/bootstrap/dist/css/bootstrap-grid.min.css");
-module.exports = __webpack_require__(/*! C:\Users\M1049154\Downloads\crud\crud\node_modules\bootstrap\dist\css\bootstrap-reboot.min.css */"./node_modules/bootstrap/dist/css/bootstrap-reboot.min.css");
+__webpack_require__(/*! C:\Users\M1049188\Desktop\ravali\docker-frontend\src\styles.css */"./src/styles.css");
+__webpack_require__(/*! C:\Users\M1049188\Desktop\ravali\docker-frontend\node_modules\bootstrap\dist\css\bootstrap.min.css */"./node_modules/bootstrap/dist/css/bootstrap.min.css");
+__webpack_require__(/*! C:\Users\M1049188\Desktop\ravali\docker-frontend\node_modules\bootstrap\dist\css\bootstrap-grid.min.css */"./node_modules/bootstrap/dist/css/bootstrap-grid.min.css");
+module.exports = __webpack_require__(/*! C:\Users\M1049188\Desktop\ravali\docker-frontend\node_modules\bootstrap\dist\css\bootstrap-reboot.min.css */"./node_modules/bootstrap/dist/css/bootstrap-reboot.min.css");
 
 
 /***/ })

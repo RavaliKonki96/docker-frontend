@@ -41,7 +41,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<br><br><br>\n<div class=\"row registrationform\">\n  <div class=\"col-sm-4 offset-sm-4\">\n    <div class=\"card\">\n      <div class=\"card-body\">\n        <form [formGroup]=\"registrationForm\" (ngSubmit)=\"register()\">\n          <div class=\"form-group\">\n            <label class=\"name\" for=\"name\">Name:</label>\n            <input type=\"text\" class=\"form-control\" id=\"name\" formControlName=\"name\" placeholder=\"Enter name\"\n              pattern=\"^[a-zA-Z]+[\\-'\\s]?[a-zA-Z]+$\" [ngClass]=\"{ 'is-invalid': f.name.touched && f.name.errors }\">\n            <div *ngIf=\"f.name.touched && f.name.errors\" class=\"invalid-feedback\">invalid name</div>\n          </div>\n          <div class=\"form-group\">\n            <label class=\"email\" for=\"registrationEmail\">Email:</label>\n            <input type=\"email\" class=\"form-control\" id=\"registrationEmail\" formControlName=\"email\"\n              placeholder=\"Enter email\"\n              pattern=\"^[a-zA-Z]+[0-9a-zA-Z.%_-]+@[a-zA-Z]+.(com|in|org|net|COM|IN|NET|ORG|co.in)$\"\n              [ngClass]=\"{ 'is-invalid': f.emailId.touched && f.emailId.errors }\">\n            <div *ngIf=\"f.emailId.touched && f.emailId.errors\" class=\"invalid-feedback\">invalid emailId</div>\n          </div>\n          <div class=\"form-group\">\n            <label class=\"age\" for=\"registrationPassword\">Age:</label>\n            <input type=\"number\" class=\"form-control\" id=\"registrationAge\" formControlName=\"age\" placeholder=\"Age\"\n              pattern=\"[1-9]{1}[0-9]{0,2}\" [ngClass]=\"{ 'is-invalid': f.age.touched && f.age.errors }\">\n            <div *ngIf=\"f.age.touched && f.age.errors\" class=\"invalid-feedback\">invalid age</div>\n          </div>\n          <br>\n          <br>\n          <div class=\"row\">\n            <div class=\"col-4 col-sm-3 col-md-3 col-lg-3 mr-5\">\n              <button type=\"submit\" class=\"btn btn-success\" [disabled]=\"registrationForm.invalid\">Register</button>\n            </div>\n            <div class=\"col-4 col-sm-4 col-md-4 col-lg-4 mr-5\">\n              <button type=\"reset\" class=\"btn btn-danger\">Reset</button>\n            </div>\n          </div>\n          <br>\n        </form>\n      </div>\n    </div>\n  </div>\n</div>"
+module.exports = "<br><br><br>\r\n<div class=\"row registrationform\">\r\n  <div class=\"col-sm-4 offset-sm-4\">\r\n    <div class=\"card\">\r\n      <div class=\"card-body\">\r\n        <form [formGroup]=\"registrationForm\" (ngSubmit)=\"register()\">\r\n          <div class=\"form-group\">\r\n            <label class=\"name\" for=\"name\">Name:</label>\r\n            <input type=\"text\" class=\"form-control\" id=\"name\" formControlName=\"name\" placeholder=\"Enter name\"\r\n              pattern=\"^[a-zA-Z]+[\\-'\\s]?[a-zA-Z]+$\" [ngClass]=\"{ 'is-invalid': f.name.touched && f.name.errors }\">\r\n            <div *ngIf=\"f.name.touched && f.name.errors\" class=\"invalid-feedback\">invalid name</div>\r\n          </div>\r\n          <div class=\"form-group\">\r\n            <label class=\"email\" for=\"registrationEmail\">Email:</label>\r\n            <input type=\"email\" class=\"form-control\" id=\"registrationEmail\" formControlName=\"email\"\r\n              placeholder=\"Enter email\"\r\n              pattern=\"^[a-zA-Z]+[0-9a-zA-Z.%_-]+@[a-zA-Z]+.(com|in|org|net|COM|IN|NET|ORG|co.in)$\"\r\n              [ngClass]=\"{ 'is-invalid': f.emailId.touched && f.emailId.errors }\">\r\n            <div *ngIf=\"f.emailId.touched && f.emailId.errors\" class=\"invalid-feedback\">invalid emailId</div>\r\n          </div>\r\n          <div class=\"form-group\">\r\n            <label class=\"age\" for=\"registrationPassword\">Age:</label>\r\n            <input type=\"number\" class=\"form-control\" id=\"registrationAge\" formControlName=\"age\" placeholder=\"Age\"\r\n              pattern=\"[1-9]{1}[0-9]{0,2}\" [ngClass]=\"{ 'is-invalid': f.age.touched && f.age.errors }\">\r\n            <div *ngIf=\"f.age.touched && f.age.errors\" class=\"invalid-feedback\">invalid age</div>\r\n          </div>\r\n          <br>\r\n          <br>\r\n          <div class=\"row\">\r\n            <div class=\"col-4 col-sm-3 col-md-3 col-lg-3 mr-5\">\r\n              <button type=\"submit\" class=\"btn btn-success\" [disabled]=\"registrationForm.invalid\">Register</button>\r\n            </div>\r\n            <div class=\"col-4 col-sm-4 col-md-4 col-lg-4 mr-5\">\r\n              <button type=\"reset\" class=\"btn btn-danger\">Reset</button>\r\n            </div>\r\n          </div>\r\n          <br>\r\n        </form>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>"
 
 /***/ }),
 
@@ -198,7 +198,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<app-navbar></app-navbar>\n<router-outlet></router-outlet>\n"
+module.exports = "<app-navbar></app-navbar>\r\n<router-outlet></router-outlet>\r\n"
 
 /***/ }),
 
@@ -332,7 +332,7 @@ module.exports = ".statement{\r\n    font-size: 5rem;\r\n    text-align: center;
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<br><br><br><br><br>\n<div class=\"statement\">\n  <br>\n  <h1 class=\"statement\">Welcome To CRUD</h1>\n  <br><br><br>\n</div>"
+module.exports = "<br><br><br><br><br>\r\n<div class=\"statement\">\r\n  <br>\r\n  <h1 class=\"statement\">Welcome To CRUD</h1>\r\n  <br><br><br>\r\n</div>"
 
 /***/ }),
 
@@ -415,7 +415,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">\n  <a class=\"navbar-brand\" routerLink=\"/home\">CRUD</a>\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\"\n    aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n\n  <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n    <ul class=\"navbar-nav mr-auto\">\n      <li class=\"nav-item active\">\n        <a class=\"nav-link\" routerLink=\"/add\">Add</a>\n      </li>\n      <li class=\"nav-item active\">\n        <a class=\"nav-link\" routerLink=\"/users\">Users</a>\n      </li>\n    </ul>\n  </div>\n</nav>"
+module.exports = "<nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">\r\n  <a class=\"navbar-brand\" routerLink=\"/home\">CRUD</a>\r\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\"\r\n    aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n    <span class=\"navbar-toggler-icon\"></span>\r\n  </button>\r\n\r\n  <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\r\n    <ul class=\"navbar-nav mr-auto\">\r\n      <li class=\"nav-item active\">\r\n        <a class=\"nav-link\" routerLink=\"/add\">Add</a>\r\n      </li>\r\n      <li class=\"nav-item active\">\r\n        <a class=\"nav-link\" routerLink=\"/users\">Users</a>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n</nav>"
 
 /***/ }),
 
@@ -478,7 +478,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<br>\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-sm-8 offset-sm-2\">\n      <div class=\"card\" *ngIf=\"isLoaded\">\n        <div class=\"container\">\n          <div class=\"card-body\">\n            <form [formGroup]=\"profileForm\" (ngSubmit)=\"updateProfile()\" *ngIf=\"profileForm\">\n              <div class=\"form-group\">\n                <label for=\"name\">Name:</label>\n                <input type=\"text\" value={{user.name}} class=\"form-control\" id=\"name\" formControlName=\"name\"\n                  aria-describedby=\"name\">\n              </div>\n              <div class=\"form-group\">\n                <label for=\"emaild\">EmailId:</label>\n                <input type=\"text\" value={{user.emailId}} class=\"form-control\" id=\"emailId\" formControlName=\"emailId\">\n              </div>\n              <div class=\"form-group\">\n                <label for=\"blogContent\">Age:</label>\n                <input type=\"text\" value={{user.age}} class=\"form-control\" id=\"age\" formControlName=\"age\"\n                  aria-describedby=\"age\">\n              </div>\n              <br>\n              <div class=\"row\">\n                <div class=\"col-6 col-sm-2 col-md-2 col-lg-3 mr-5\">\n                  <button type=\"submit\" my-directive class=\"btn btn-primary green\">Submit</button>\n                </div>\n              </div>\n              <br>\n              <div class=\"row\">\n                <div class=\"col-6 col-sm-4 col-md-4 col-lg-4 mr-5\">\n                  <button type=\"reset\" my-directive class=\"btn btn-danger red\" bgColor=\"light red\">Reset</button>\n                </div>\n              </div>\n            </form>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>"
+module.exports = "<br>\r\n<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col-sm-8 offset-sm-2\">\r\n      <div class=\"card\" *ngIf=\"isLoaded\">\r\n        <div class=\"container\">\r\n          <div class=\"card-body\">\r\n            <form [formGroup]=\"profileForm\" (ngSubmit)=\"updateProfile()\" *ngIf=\"profileForm\">\r\n              <div class=\"form-group\">\r\n                <label for=\"name\">Name:</label>\r\n                <input type=\"text\" value={{user.name}} class=\"form-control\" id=\"name\" formControlName=\"name\"\r\n                  aria-describedby=\"name\">\r\n              </div>\r\n              <div class=\"form-group\">\r\n                <label for=\"emaild\">EmailId:</label>\r\n                <input type=\"text\" value={{user.emailId}} class=\"form-control\" id=\"emailId\" formControlName=\"emailId\">\r\n              </div>\r\n              <div class=\"form-group\">\r\n                <label for=\"blogContent\">Age:</label>\r\n                <input type=\"text\" value={{user.age}} class=\"form-control\" id=\"age\" formControlName=\"age\"\r\n                  aria-describedby=\"age\">\r\n              </div>\r\n              <br>\r\n              <div class=\"row\">\r\n                <div class=\"col-6 col-sm-2 col-md-2 col-lg-3 mr-5\">\r\n                  <button type=\"submit\" my-directive class=\"btn btn-primary green\">Submit</button>\r\n                </div>\r\n              </div>\r\n              <br>\r\n              <div class=\"row\">\r\n                <div class=\"col-6 col-sm-4 col-md-4 col-lg-4 mr-5\">\r\n                  <button type=\"reset\" my-directive class=\"btn btn-danger red\" bgColor=\"light red\">Reset</button>\r\n                </div>\r\n              </div>\r\n            </form>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>"
 
 /***/ }),
 
@@ -588,7 +588,7 @@ module.exports = ".card-tittle{\r\n    z-index: -1;\r\n}\r\n\r\n.card {\r\n    w
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<br><br><br>\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"mb-3 col-md-4 col-sm-6 col-lg-4 d-flex align-items-stretch card-unique \" *ngFor=\"let unique of allUsers\"\n      (click)=\"btnClick(unique)\">\n      <div class=\"card text-white bg-dark\">\n        <div class=\"blog-grid4\">\n          <a>\n            <img class=\"card-img-top cover-image\" src=\"../../assets/avatar.png\" alt=\"Card image cap\">\n          </a>\n          <hr>\n          <div class=\"card-body\">\n            <div class=\"card-body-top\">\n              <h5 class=\"gadget-name\">{{unique.name}}</h5>\n              <div class=\"overlay\">\n                <div class=\"content-trans\">{{unique.email}}</div>\n              </div>\n              <h1 class=\"blog-name text-white\">{{unique.age}}</h1>\n            </div>\n            <br>\n          </div>\n        </div>\n\n      </div>\n    </div>\n\n  </div>\n\n  <br>\n</div>"
+module.exports = "<br><br><br>\r\n<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"mb-3 col-md-4 col-sm-6 col-lg-4 d-flex align-items-stretch card-unique \" *ngFor=\"let unique of allUsers\"\r\n      (click)=\"btnClick(unique)\">\r\n      <div class=\"card text-white bg-dark\">\r\n        <div class=\"blog-grid4\">\r\n          <a>\r\n            <img class=\"card-img-top cover-image\" src=\"../../assets/avatar.png\" alt=\"Card image cap\">\r\n          </a>\r\n          <hr>\r\n          <div class=\"card-body\">\r\n            <div class=\"card-body-top\">\r\n              <h5 class=\"gadget-name\">{{unique.name}}</h5>\r\n              <div class=\"overlay\">\r\n                <div class=\"content-trans\">{{unique.email}}</div>\r\n              </div>\r\n              <h1 class=\"blog-name text-white\">{{unique.age}}</h1>\r\n            </div>\r\n            <br>\r\n          </div>\r\n        </div>\r\n\r\n      </div>\r\n    </div>\r\n\r\n  </div>\r\n\r\n  <br>\r\n</div>"
 
 /***/ }),
 
@@ -686,19 +686,19 @@ var UserService = /** @class */ (function () {
         this.http = http;
     }
     UserService.prototype.addUser = function (newUser) {
-        return this.http.post('http://172.31.21.24:8081' + "/user/addNewUser", newUser, GET_HEADERS);
+        return this.http.post('http://172.31.10.7:8081' + "/user/addNewUser", newUser, GET_HEADERS);
     };
     UserService.prototype.getUser = function (emailId) {
-        return this.http.get('http://172.31.21.24:8081' + '/user/getUser/' + emailId);
+        return this.http.get('http://172.31.10.7:8081' + '/user/getUser/' + emailId);
     };
     UserService.prototype.getAllUsers = function () {
-        return this.http.get('http://172.31.21.24:8081' + '/user/getUsers');
+        return this.http.get('http://172.31.10.7:8081' + '/user/getUsers');
     };
     UserService.prototype.deleteUser = function (userId) {
-        return this.http.delete('http://172.31.21.24:8081' + '/user/' + userId);
+        return this.http.delete('http://172.31.10.7:8081' + '/user/' + userId);
     };
     UserService.prototype.updateUser = function (user) {
-        return this.http.put('http://172.31.21.24:8081' + "/user/", user, GET_HEADERS);
+        return this.http.put('http://172.31.10.7:8081' + "/user/", user, GET_HEADERS);
     };
     UserService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
@@ -731,7 +731,7 @@ module.exports = ".card {\r\n    width: 30rem;\r\n}\r\n/*# sourceMappingURL=data
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<br>\n<div class=\"container\">\n  <div class=\"col-sm-12 offset-sm-1\">\n    <div class=\"row\">\n      <div class=\"card mb-6\">\n        <div class=\"row\">\n          <div class=\"col-6\">\n            <img class=\"card-img-top avatar\" src=\"../../assets/avatar.png\" alt=\"profilePic\">\n          </div>\n          <div class=\"col-6\">\n            <br><br>\n            <button type=\"button update-button\" my-directive class=\"btn btn-primary update-button\"\n              (click)=\"updateProfile()\" bgColor=\"light red\">Update</button>\n          </div>\n        </div>\n        <div class=\"card-body\">\n          <div class=\"row\">\n            <div class=\"col-6\">\n              <h5 class=\"card-title\">Name:</h5>\n              <hr>\n              <h5 class=\"card-title\">EmailId:</h5>\n              <hr>\n              <div class=\"age\">\n                <h5 class=\"card-title\">Age:</h5>\n                <hr>\n              </div>\n            </div>\n\n            <div class=\"details col-6\">\n              <h5 class=\"card-title text-center\">{{user.name}}</h5>\n              <hr>\n              <h5 class=\"card-title text-center\">{{user.email}}</h5>\n              <hr>\n              <div class=\"age\">\n                <h5 class=\"card-title text-center\">{{user.age}}</h5>\n                <hr>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>"
+module.exports = "<br>\r\n<div class=\"container\">\r\n  <div class=\"col-sm-12 offset-sm-1\">\r\n    <div class=\"row\">\r\n      <div class=\"card mb-6\">\r\n        <div class=\"row\">\r\n          <div class=\"col-6\">\r\n            <img class=\"card-img-top avatar\" src=\"../../assets/avatar.png\" alt=\"profilePic\">\r\n          </div>\r\n          <div class=\"col-6\">\r\n            <br><br>\r\n            <button type=\"button update-button\" my-directive class=\"btn btn-primary update-button\"\r\n              (click)=\"updateProfile()\" bgColor=\"light red\">Update</button>\r\n          </div>\r\n        </div>\r\n        <div class=\"card-body\">\r\n          <div class=\"row\">\r\n            <div class=\"col-6\">\r\n              <h5 class=\"card-title\">Name:</h5>\r\n              <hr>\r\n              <h5 class=\"card-title\">EmailId:</h5>\r\n              <hr>\r\n              <div class=\"age\">\r\n                <h5 class=\"card-title\">Age:</h5>\r\n                <hr>\r\n              </div>\r\n            </div>\r\n\r\n            <div class=\"details col-6\">\r\n              <h5 class=\"card-title text-center\">{{user.name}}</h5>\r\n              <hr>\r\n              <h5 class=\"card-title text-center\">{{user.email}}</h5>\r\n              <hr>\r\n              <div class=\"age\">\r\n                <h5 class=\"card-title text-center\">{{user.age}}</h5>\r\n                <hr>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>"
 
 /***/ }),
 
@@ -855,7 +855,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\M1049154\Downloads\crud\crud\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\M1049188\Desktop\ravali\docker-frontend\src\main.ts */"./src/main.ts");
 
 
 /***/ })
