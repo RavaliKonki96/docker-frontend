@@ -686,19 +686,19 @@ var UserService = /** @class */ (function () {
         this.http = http;
     }
     UserService.prototype.addUser = function (newUser) {
-        return this.http.post('http://172.31.10.7:8081' + "/user/addNewUser", newUser, GET_HEADERS);
+        return this.http.post('http://18.236.243.241:8081' + "/user/addNewUser", newUser, GET_HEADERS);
     };
     UserService.prototype.getUser = function (emailId) {
-        return this.http.get('http://172.31.10.7:8081' + '/user/getUser/' + emailId);
+        return this.http.get('http://18.236.243.241:8081' + '/user/getUser/' + emailId);
     };
     UserService.prototype.getAllUsers = function () {
-        return this.http.get('http://172.31.10.7:8081' + '/user/getUsers');
+        return this.http.get('http://18.236.243.241:8081' + '/user/getUsers');
     };
     UserService.prototype.deleteUser = function (userId) {
-        return this.http.delete('http://172.31.10.7:8081' + '/user/' + userId);
+        return this.http.delete('http://18.236.243.241:8081' + '/user/' + userId);
     };
     UserService.prototype.updateUser = function (user) {
-        return this.http.put('http://172.31.10.7:8081' + "/user/", user, GET_HEADERS);
+        return this.http.put('http://18.236.243.241:8081' + "/user/", user, GET_HEADERS);
     };
     UserService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
